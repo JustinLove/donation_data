@@ -1,4 +1,4 @@
-define(['donation_panel/tiltify/parse'], function(parse) {
+define(['donation_data/tiltify/parse'], function(parse) {
   var donations = "https://tiltify.com/api_test/v2/campaign/donations"
 
   var update = function(url) {

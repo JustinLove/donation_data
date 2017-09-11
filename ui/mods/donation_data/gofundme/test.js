@@ -1,11 +1,11 @@
-define(['donation_panel/gofundme/parse'], function(parse) {
+define(['donation_data/gofundme/parse'], function(parse) {
   var testSequence = [
-    "coui://ui/mods/donation_panel/gofundme/gfm50.html",
-    "coui://ui/mods/donation_panel/gofundme/gfm40.html",
-    "coui://ui/mods/donation_panel/gofundme/gfm30.html",
-    "coui://ui/mods/donation_panel/gofundme/gfm20.html",
-    "coui://ui/mods/donation_panel/gofundme/gfm10.html",
-    "coui://ui/mods/donation_panel/gofundme/gfm00.html",
+    "coui://ui/mods/donation_data/gofundme/gfm50.html",
+    "coui://ui/mods/donation_data/gofundme/gfm40.html",
+    "coui://ui/mods/donation_data/gofundme/gfm30.html",
+    "coui://ui/mods/donation_data/gofundme/gfm20.html",
+    "coui://ui/mods/donation_data/gofundme/gfm10.html",
+    "coui://ui/mods/donation_data/gofundme/gfm00.html",
   ]
 
   var update = function() {

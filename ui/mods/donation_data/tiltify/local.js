@@ -1,6 +1,6 @@
-define(['donation_panel/tiltify/parse'], function(parse) {
+define(['donation_data/tiltify/parse'], function(parse) {
   var testSequence = [
-    "coui://ui/mods/donation_panel/tiltify/api_test.json",
+    "coui://ui/mods/donation_data/tiltify/api_test.json",
   ]
 
   var update = function() {

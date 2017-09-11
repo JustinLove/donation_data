@@ -1,15 +1,15 @@
 define(function() {
   var feed = function() {
-    return api.settings.isSet('ui', 'donation_panel_feed', true) || 'donordrive_test'
+    return api.settings.isSet('ui', 'donation_data_feed', true) || 'donordrive_test'
   }
   var api_key = function() {
-    return api.settings.isSet('ui', 'donation_panel_api_key', true) || ''
+    return api.settings.isSet('ui', 'donation_data_api_key', true) || ''
   }
   var match_tags = function() {
-    return (api.settings.isSet('ui', 'donation_panel_match_tags', true) || '').split(/\s*,\s*/)
+    return (api.settings.isSet('ui', 'donation_data_match_tags', true) || '').split(/\s*,\s*/)
   }
   var current_match = function() {
-    return api.settings.isSet('ui', 'donation_panel_current_match', true) || ''
+    return api.settings.isSet('ui', 'donation_data_current_match', true) || ''
   }
   return {
     name: feed,

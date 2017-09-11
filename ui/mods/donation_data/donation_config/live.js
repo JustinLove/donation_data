@@ -1,6 +1,6 @@
 define([
-  'donation_panel/donation_config/parse',
-  'donation_panel/config',
+  'donation_data/donation_config/parse',
+  'donation_data/config',
 ], function(parse, config) {
   var local = "http://localhost:5100/donations"
   var donations = local

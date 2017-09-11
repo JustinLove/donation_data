@@ -1,6 +1,6 @@
 define([
-  'donation_panel/tiltify/parse',
-  'donation_panel/config',
+  'donation_data/tiltify/parse',
+  'donation_data/config',
 ], function(parse, config) {
   var donations = "https://tiltify.com/api/v2/campaign/donations"
 

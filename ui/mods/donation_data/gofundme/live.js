@@ -1,6 +1,6 @@
-define(['donation_panel/gofundme/parse'], function(parse) {
+define(['donation_data/gofundme/parse'], function(parse) {
   var donations = "http://www.gofundme.com/mvc.php?route=donate/pagingdonationsb&url=planetaryablegamers&idx=0&type=recent"
-  //var donations = "coui://ui/mods/donation_panel/raw.html"
+  //var donations = "coui://ui/mods/donation_data/raw.html"
 
   var update = function(url) {
     return $.get(url || donations).then(parse.process)

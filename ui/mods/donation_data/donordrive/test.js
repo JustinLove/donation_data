@@ -1,11 +1,11 @@
-define(['donation_panel/donordrive/parse'], function(parse) {
+define(['donation_data/donordrive/parse'], function(parse) {
   var testSequence = [
-    //"coui://ui/mods/donation_panel/donordrive/sample.htm",
-    //"coui://ui/mods/donation_panel/donordrive/sample201609.html",
-    "coui://ui/mods/donation_panel/donordrive/donordrive00.html",
-    "coui://ui/mods/donation_panel/donordrive/donordrive01.html",
-    "coui://ui/mods/donation_panel/donordrive/donordrive02.html",
-    //"coui://ui/mods/donation_panel/donordrive/test.htm",
+    //"coui://ui/mods/donation_data/donordrive/sample.htm",
+    //"coui://ui/mods/donation_data/donordrive/sample201609.html",
+    "coui://ui/mods/donation_data/donordrive/donordrive00.html",
+    "coui://ui/mods/donation_data/donordrive/donordrive01.html",
+    "coui://ui/mods/donation_data/donordrive/donordrive02.html",
+    //"coui://ui/mods/donation_data/donordrive/test.htm",
   ]
 
   var update = function() {
