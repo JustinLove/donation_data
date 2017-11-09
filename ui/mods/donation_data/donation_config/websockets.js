@@ -14,16 +14,18 @@ define([
   var subscribe = function(callback) {
     var ws = new WebSocket(donations + query)
 
-    ws.onerror = function() {
+    /* ws.onerror = function() {
       console.log('websocket error', arguments)
-    }
+    }*/
 
-    ws.onclose = function() {
+    ws.onopen = function() {
       console.log('websocket opened')
+      poll.update().then(callback)
     }
 
     ws.onclose = function() {
       console.log('websocket closed')
+      setTimeout(subscribe, 10000, callback)
     }
 
     ws.onmessage = function(event) {

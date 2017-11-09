@@ -2,12 +2,12 @@ define([
   'donation_data/donation_config/parse',
   'donation_data/config',
 ], function(parse, config) {
-  var local = "http://localhost:5100/donations"
+  var local = "http://localhost:5000/donations"
   var donations = local
 
   var query = ""
   if (config.current_match()) {
-    "?untagged=true&game=" + config.current_match()
+    query = "?untagged=true&game=" + config.current_match()
   }
 
   var update = function(url) {

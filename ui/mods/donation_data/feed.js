@@ -9,6 +9,7 @@ define([
   'donation_data/donordrive/test',
   'donation_data/donordrive/live',
   'donation_data/donation_config/live',
+  'donation_data/donation_config/websockets',
 ], function(
   tiltify_local,
   tiltify_api_test,
@@ -19,7 +20,8 @@ define([
   gofundme_live,
   donordrive_test,
   donordrive_live,
-  donation_config_live
+  donation_config_live,
+  donation_config_websockets
 ) {
   return {
     tiltify_local: tiltify_local,
@@ -32,5 +34,6 @@ define([
     donordrive_test: donordrive_test,
     donordrive_live: donordrive_live,
     donation_config_live: donation_config_live,
+    donation_config_websockets: donation_config_websockets,
   }
 })

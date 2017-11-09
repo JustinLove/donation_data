@@ -7,6 +7,7 @@
         'donordrive_test',
         'donordrive_live',
         'donation_config_live',
+        'donation_config_websockets',
         'fundrazr_test',
         'fundrazr_live',
         'gofundme_test',
