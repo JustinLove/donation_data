@@ -3,7 +3,7 @@
   "build": "105067",
   "category": ["framework"],
   "context": "client",
-  "date": "2017/11/02",
+  "date": "2017/11/14",
   "description": "Pull in the donation feed for the ablegamers tournament; really only useful during puppetmaster chairity tournaments.",
   "display_name": "Donation Data (AbleGamers)",
   "forum": "https://forums.uberent.com/threads/wip-donation-panel.62576/",
@@ -16,6 +16,6 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
 
