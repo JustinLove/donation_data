@@ -3,7 +3,8 @@ define([
   'donation_data/config',
 ], function(parse, config) {
   var local = "http://localhost:5000/donations"
-  var donations = local
+  var live = "https://ablegamers2017.herokuapp.com/donations"
+  var donations = live
 
   var query = ""
   if (config.current_match()) {
