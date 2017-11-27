@@ -8,6 +8,7 @@ define([
   'donation_data/gofundme/live',
   'donation_data/donordrive/test',
   'donation_data/donordrive/live',
+  'donation_data/donation_config/local',
   'donation_data/donation_config/live',
   'donation_data/donation_config/websockets',
 ], function(
@@ -20,6 +21,7 @@ define([
   gofundme_live,
   donordrive_test,
   donordrive_live,
+  donation_config_local,
   donation_config_live,
   donation_config_websockets
 ) {
@@ -33,6 +35,7 @@ define([
     gofundme_live: gofundme_live,
     donordrive_test: donordrive_test,
     donordrive_live: donordrive_live,
+    donation_config_local: donation_config_local,
     donation_config_live: donation_config_live,
     donation_config_websockets: donation_config_websockets,
   }

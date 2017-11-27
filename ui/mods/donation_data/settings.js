@@ -4,19 +4,20 @@
       title: 'Donation Feed',
       type: 'select',
       options: [
-        'donordrive_test',
-        'donordrive_live',
+        'donation_config_local',
         'donation_config_live',
         'donation_config_websockets',
+        'tiltify_local',
+        'tiltify_api_test',
+        'tiltify_live',
+        'donordrive_test',
+        'donordrive_live',
         'fundrazr_test',
         'fundrazr_live',
         'gofundme_test',
         'gofundme_live',
-        'tiltify_local',
-        'tiltify_api_test',
-        'tiltify_live',
       ],
-      default: 'donordrive_test'
+      default: 'donation_config_local'
     },
     donation_data_api_key: {
       title: 'Feed Api Key',
