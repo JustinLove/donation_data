@@ -5,7 +5,7 @@ define([
 ], function(parse, poll, config) {
   var local = "ws://localhost:5000/donations"
   var live = "wss://ablegamers2017.herokuapp.com/donations"
-  var donations = live
+  var donations = local
 
   var query = ""
   if (config.current_match()) {
@@ -30,7 +30,7 @@ define([
     }
 
     ws.onmessage = function(event) {
-      //console.log('message', event)
+      console.log('message', event)
       var message = JSON.parse(event.data)
       callback(parse.process(message))
     }

@@ -1,7 +1,7 @@
 define([
-  'donation_data/tiltify/local',
-  'donation_data/tiltify/api_test',
-  'donation_data/tiltify/live',
+  'donation_data/tiltifyv3/local',
+  'donation_data/tiltifyv3/live',
+  'donation_data/tiltifyv2/local',
   'donation_data/fundrazr/test',
   'donation_data/fundrazr/live',
   'donation_data/gofundme/test',
@@ -12,9 +12,9 @@ define([
   'donation_data/donation_config/live',
   'donation_data/donation_config/websockets',
 ], function(
-  tiltify_local,
-  tiltify_api_test,
-  tiltify_live,
+  tiltify_v3_local,
+  tiltify_v3_live,
+  tiltify_v2_local,
   fundrazr_test,
   fundrazr_live,
   gofundme_test,
@@ -26,9 +26,9 @@ define([
   donation_config_websockets
 ) {
   return {
-    tiltify_local: tiltify_local,
-    tiltify_api_test: tiltify_api_test,
-    tiltify_live: tiltify_live,
+    tiltify_v3_local: tiltify_v3_local,
+    tiltify_v3_live: tiltify_v3_live,
+    tiltify_v2_local: tiltify_v2_local,
     fundrazr_test: fundrazr_test,
     fundrazr_live: fundrazr_live,
     gofundme_test: gofundme_test,

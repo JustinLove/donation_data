@@ -11,10 +11,10 @@ define([
     query = "?untagged=true&game=" + config.current_match()
   }
 
-  var update = function(url) {
+  var update = function() {
     return $.ajax({
       method: 'GET',
-      url: (url || donations) + query,
+      url: donations + query,
       dataType: 'json',
     }).then(parse.process)
   }

@@ -1,5 +1,10 @@
 # Donation Data Changelog
 
+## 0.4.0
+
+- Remove/rename some of Tiltify v2 api
+- Add Tiltify v3 api
+
 ## 0.3.0
 
 - Add Tiltity 2017 data
