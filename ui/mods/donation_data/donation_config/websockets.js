@@ -4,8 +4,8 @@ define([
   'donation_data/config',
 ], function(parse, poll, config) {
   var local = "ws://localhost:5000/donations"
-  var live = "wss://ablegamers2017.herokuapp.com/donations"
-  var donations = local
+  var live = "wss://ablegamers2018.herokuapp.com/donations"
+  var donations = live
 
   var query = ""
   if (config.current_match()) {

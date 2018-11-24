@@ -1,5 +1,9 @@
 # Donation Data Changelog
 
+## 0.4.1
+
+- Update donation config url
+
 ## 0.4.0
 
 - Remove/rename some of Tiltify v2 api
