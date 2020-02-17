@@ -1,5 +1,9 @@
 # Donation Data Changelog
 
+## 0.4.2
+
+- Update donation config url
+
 ## 0.4.1
 
 - Update donation config url

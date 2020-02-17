@@ -1,6 +1,7 @@
 define(['donation_data/donation_config/parse'], function(parse) {
   var testSequence = [
-    "coui://ui/mods/donation_data/donation_config/donation_config_2017.json",
+    //"coui://ui/mods/donation_data/donation_config/donation_config_2017.json",
+    "coui://ui/mods/donation_data/donation_config/donation_config_2018.json",
   ]
 
   var update = function() {
